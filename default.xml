@@ -5,7 +5,7 @@
           review="https://review.gerrithub.io" />
 
   <default remote="origin"
-           revision="HEAD:refs/for/master" />
+           revision="master" />
 
   <project path="test_buck" name="test_buck" />
 </manifest>
