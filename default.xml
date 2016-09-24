@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="origin"
-          fetch="." />
+          fetch="."
+          review="https://review.gerrithub.io" />
 
   <default remote="origin"
-           revision="master" />
+           revision="HEAD:refs/for/master" />
 
   <project path="test_buck" name="test_buck" />
 </manifest>
