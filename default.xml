@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="origin"
+          fetch="." />
+
+  <default remote="origin"
+           revision="master" />
+
+  <project path="test_buck" name="test_buck" />
+</manifest>
